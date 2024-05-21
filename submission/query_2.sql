@@ -1,5 +1,5 @@
 -- query_2
-CREATE TABLE user_devices_cumulated (
+CREATE OR REPLACE TABLE user_devices_cumulated (
   user_id BIGINT,
   browser_type VARCHAR,
   dates_active ARRAY(date),
