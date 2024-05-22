@@ -10,7 +10,6 @@ WITH
   -- Select new data to be loaded for the specified date
   today AS (
     SELECT *
-      -- Assuming table already exists
       FROM qhamzah.daily_web_metrics
      WHERE date = DATE('2023-08-01')
   )
