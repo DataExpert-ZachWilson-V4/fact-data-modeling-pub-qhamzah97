@@ -11,7 +11,7 @@ WITH
   today AS (
     SELECT *
       -- Assuming table already exists
-      FROM daily_web_metrics
+      FROM qhamzah.daily_web_metrics
      WHERE date = DATE('2023-08-01')
   )
 
