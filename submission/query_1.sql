@@ -1,5 +1,4 @@
 -- query_1
-
 WITH ranked_game_details AS (
   SELECT
     *,
