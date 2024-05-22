@@ -1,4 +1,5 @@
 -- query_1
+
 WITH ranked_game_details AS (
   SELECT
     *,
@@ -11,6 +12,7 @@ WITH ranked_game_details AS (
       order by GAME_ID
     ) AS row_number
     FROM bootcamp.nba_game_details
+   -- Order the initial dataset by game_id, team_id, and player_id
    ORDER BY game_id, team_id, player_id
 )
 
