@@ -1,5 +1,6 @@
 -- query_7
-CREATE OR REPLACE TABLE host_activity_reduced (
+-- Create a new table or replace the existing table 'host_activity_reduced'
+CREATE OR REPLACE TABLE qhamzah.host_activity_reduced (
   host VARCHAR,
   metric_name VARCHAR,
   metric_array ARRAY(INTEGER),
